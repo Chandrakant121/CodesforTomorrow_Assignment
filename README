@@ -1,0 +1,24 @@
+
+Requirements:
+- Create an API for JWT token-based login.
+- Create an API to perform Create/Read/Update/Delete on category.
+- Create an API to Create/Read/Update/Delete services in the category.
+- Document all the API on Postman.
+
+
+Schema:-
+- Category Schema:
+·     Category name
+
+- Service Schema:
+·     Category ID
+·     Service Name
+·     Type  (Note - Possible Options are Normal, VIP)
+·     Price Options (Note - Service can have multiple price option)
+* See below schema to save multiple price options of service in separate table
+
+- Service Price Options Schema:
+·     Service ID
+·     Duration
+·     Price
+·     Type  (Note - Possible Options are Hourly, Weekly, Monthl)
